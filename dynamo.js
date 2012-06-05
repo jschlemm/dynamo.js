@@ -48,7 +48,7 @@
                 });
 
             // manually align left it if we need to
-            if (v.attr('data-center').toLowerCase() == "false")
+            if (v.attr('data-center') == "false")
                 v.css('text-align', 'left');
 
             // now, animate it
