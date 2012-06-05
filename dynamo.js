@@ -65,4 +65,4 @@
     // automatically initiate cycles on elements of class 'dynamo'
     $('.dynamo').dynamo();
 
-})(jQuery);​
+})(jQuery);
