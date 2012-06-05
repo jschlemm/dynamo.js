@@ -44,12 +44,12 @@
                     'position' : 'relative', 
                     'overflow' : 'hidden', 
                     'vertical-align' : 'bottom',
-                    'text-align' : 'left' 
+                    'text-align' : 'center' 
                 });
 
-            // manually center it if we need to
-            if (v.attr('data-center'))
-                v.css('text-align', 'center');
+            // manually align left it if we need to
+            if (v.attr('data-center').toLowerCase() == "false")
+                v.css('text-align', 'left');
 
             // now, animate it
             var transition = function() {
